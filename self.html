@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <input
+    <div
       style="
         background-color: rgb(151, 149, 149);
         height: 100vh;
@@ -15,15 +15,21 @@
         padding-top: 5vh;
       "
     >
-      <div
-        style="
-          background-color: pink;
-          height: 13vh;
-          width: 13vh;
-          margin-left: 5vh;
-        "
-      ></div>
-      <div>이름</div>
+      <div style="display: flex; flex-direction: row">
+        <div
+          style="
+            background-color: pink;
+            height: 13vh;
+            width: 13vh;
+            margin-left: 5vh;
+            border-radius: 50px;
+          "
+        ></div>
+        <div style="display: flex; flex-direction: column">
+          <div>이름</div>
+          <div>나이</div>
+        </div>
+      </div>
       <div
         style="
           background-color: white;
@@ -33,6 +39,7 @@
           justify-content: center;
           margin-left: 5vh;
           margin-top: 5vh;
+          border-radius: 30px;
         "
       ></div>
     </div>
