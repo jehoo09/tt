@@ -1,0 +1,22 @@
+.brownbox {
+  background-color: brown;
+  height: 20vh;
+  width: 20vh;
+}
+
+.bigbrownbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.twobrownbox {
+  display: flex;
+  flex-direction: column;
+}
+.brownboxtwo {
+  background-color: brown;
+  height: 20vh;
+  width: 20vh;
+  display: flex;
+  margin-bottom: 15px;
+}
