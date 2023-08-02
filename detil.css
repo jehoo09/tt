@@ -1,0 +1,77 @@
+.card {
+  width: 90vh;
+  height: 50vh;
+  margin-bottom: 20px;
+}
+.video {
+  width: 40vh;
+  background-color: white;
+}
+.next_video {
+  background-color: yellow;
+  width: 40vh;
+  height: 15vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.yasuo {
+  background-color: aqua;
+  width: 20vh;
+  height: 15vh;
+}
+.description {
+  background-color: white;
+  width: 20vh;
+  height: 15vh;
+}
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.explanation {
+  font-size: 20px;
+}
+.youtube_detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.two_box {
+  display: flex;
+  flex-direction: column;
+}
+.comment {
+  width: 90vh;
+  background-color: white;
+}
+.chat {
+  background-color: white;
+  width: 90vh;
+  height: 10vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.number {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 27px;
+}
+.red_circle {
+  border-radius: 50%;
+  background-color: red;
+  width: 7vh;
+  height: 7vh;
+}
+.title_comment {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.recommend {
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 30px;
+}
